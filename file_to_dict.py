@@ -8,6 +8,14 @@ from yaml import safe_load
 from xmltodict import parse
 
 def file2dict(file_name):
+    """Transform a file to dictionary
+
+    Args:
+        file_name (str): the file name
+
+    Returns:
+        str: returns a strings of dict.
+    """
     string = ""
     with open(file_name, 'r') as f:
         if file_name.endswith(".csv"):

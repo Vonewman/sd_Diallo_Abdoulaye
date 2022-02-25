@@ -9,6 +9,13 @@ from dicttoxml import dicttoxml as dtx
 
 
 def dict2file(data, fname, extent):
+    """transform a dict to a file
+
+    Args:
+        data (dict): a dictionary
+        fname (str): the filename
+        extent (str): file extension
+    """
     with open(f'{fname}.{extent}', 'w') as f:
         if extent == 'csv':
             data = [data]
