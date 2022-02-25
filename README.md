@@ -3,7 +3,7 @@ On s'intéresse ici aux fichiers de type CSV, XML, JSON et YAML.
 
 Avant d'executer ce programme, installer les packages dont il depends.
 Ces packages python sont **_xmltodict_** et **_dicttoxml_**.
-Pour installer ces packages, executez la commande suivante:
+Pour installez ces packages, executez la commande suivante:
 
 ```python3
 $ pip install -r requirements.txt
