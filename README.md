@@ -1,26 +1,38 @@
-Bienvenu dans mon projet sur les structures de donnees.
-On s'intéresse ici aux fichiers de type CSV, XML, JSON et YAML.
+# Welcome to my project on data structures.
 
-Avant d'executer ce programme, installez les packages dont il depends.
-Ces packages python sont **_xmltodict_** et **_dicttoxml_**.
-Pour installer ces packages, executez la commande suivante:
+This project focuses on handling files in CSV, XML, JSON, and YAML formats.
+
+## Installation
+
+Before running the program, ensure that the required Python packages are installed: **_xmltodict_** and **_dicttoxml_**.
+
+To install these dependencies, execute the following command:
 
 ```python3
 $ pip install -r requirements.txt
 ```
 
-Une fois ces packages installes on peut utiliser le programme.
-Pour utiliser ce programme a partir du terminal de maniere interactif,
-executer le fichier cli.py, cli pour **_commande line interface_**.
+
+## Usage
+
+Once the dependencies are installed, you can use the program in two ways:
+
+1- **Command-Line Interface (CLI)**:
+
+To interact with the program via the terminal, run:
 
 ```python3
 $ python3 cli.py
 ```
 
-Pour utiliser ce programme a partir d'un interface graphique interactif,
-executer le fichier GUI.py, cli pour **_Graphical User Interface_**.
-Notez qu'on a utilise **Tkinter** pour coder le GUI.
+This will launch the CLI, allowing you to work with the supported file formats.
+
+2- **Graphical User Interface (GUI)**:
+
+To use the program with a graphical interface, run:
 
 ```python3
 $ python3 GUI.py
 ```
+
+Note: The GUI is built using Tkinter.
